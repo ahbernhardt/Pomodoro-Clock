@@ -5,7 +5,9 @@
 Check for [Demo](https://anguyen0208.github.io/Pomodoro-Clock)
 
 ## Screenshot
-![pomodoro](public/img/og.png)
+
+[comment]: <> (![pomodoro]&#40;public/img/og.png&#41;)
+![Recordit GIF](http://g.recordit.co/AwafMhrTjR.gif)
 
 ## Usage
 
