@@ -116,6 +116,10 @@ input[type=text] {
   margin-left: 25px;
 }
 
+#timer-controls button:hover {
+  color: #f1c40f;
+}
+
 .footer {
   text-align: center;
   padding: .5rem 0;
