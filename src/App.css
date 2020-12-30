@@ -1,0 +1,164 @@
+body {
+  min-width: 320px;
+  color: #F8F8F8;
+  background: #3b3a3a;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+}
+
+#container {
+  min-height: 100vh;
+  background: rgba(0, 0, 0, 0.66);
+}
+
+#title {
+  font-size: 2.5em;
+  line-height: 2em;
+}
+
+#content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 2em;
+  padding: 1em;
+}
+
+#options, #checks, #timer-container {
+  margin-bottom: 1em;
+}
+
+#options > .timer-option {
+  display: inline-block;
+  width: 200px;
+}
+
+#checks > .check {
+  opacity: 0.25;
+}
+
+#phase {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+#timer-container {
+  display: inline-block;
+  width: 240px;
+  height: 240px;
+  position: relative;
+  background-color: #4a4a4a;
+  border-radius: 100%;
+}
+
+#timer, #timer-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+#timer {
+  font-size: 4em;
+  z-index: 1;
+  width: 220px;
+  height: 220px;
+  line-height: 220px;
+  background-color: #5f5f5f;
+  border-radius: 100%;
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+input[type=text] {
+  text-align: center;
+  margin: 0 -5px;
+}
+
+.timer-option > button, input[type=text] {
+  font-size: 1em;
+  width: 2em;
+  height: 2em;
+  color: #F8F8F8;
+  background-color: transparent;
+  /*border: none;*/
+  border-bottom: 1px solid #F8F8F8;
+  box-sizing: border-box;
+}
+
+.timer-option button{
+  border: solid 1px #fff;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 15%;
+}
+
+input[type=text] {
+  font-size: 1em;
+  width: 2em;
+  height: 2em;
+  color: #F8F8F8;
+  background-color: transparent;
+  border: none;
+  /*border-bottom: 1px solid #F8F8F8;*/
+  box-sizing: border-box;
+}
+#timer-controls > button {
+  font-size: 1em;
+  color: #F8F8F8;
+  background-color: transparent;
+  border: none;
+  padding: 0.5em 0.5em 1px;
+  border-bottom-style: dotted;
+  border-bottom-width: 1px;
+  margin-left: 25px;
+}
+
+.footer {
+  text-align: center;
+  padding: .5rem 0;
+  font-size: 1.4rem;
+  color: #cccccc;
+}
+
+.footer a {
+  margin-left: .5rem;
+}
+
+.footer span {
+  display: inline-block;
+  margin: 1rem;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #ffffff;
+  border-bottom: 1px solid transparent;
+  transition: all 0.3s ease-out;
+}
+
+.footer-link i {
+  color: #ffffff;
+  font-size: 1.8rem;
+  margin-right: 4px;
+}
+
+.footer-link:hover, .footer-link i:hover{
+  color:  #f1c40f;
+}
+
+a {
+  color: #FFF;
+}
+
+@media screen and (max-width: 768px) {
+  #title {
+    font-size: 3em;
+  }
+  #options > .timer-option {
+    display: block;
+    margin: 0 auto 2em;
+  }
+}

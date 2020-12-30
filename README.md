@@ -1,0 +1,30 @@
+# Pomodoro-Clock
+
+>Upgrade version of [25+5 Timer](https://anguyen0208.github.io/25-5-timer/)
+
+Check for [Demo](https://anguyen0208.github.io/Pomodoro-Clock)
+
+## Screenshot
+![pomodoro](public/img/og.png)
+
+## Usage
+
+```sh
+git clone https://github.com/anguyen0208/Pomodoro-Clock.git
+cd Pomodoro-Clock
+
+# install dependencies
+npm install
+
+# start development server & open browser
+npm run start
+```
+
+## tasks
+
+```
+npm run
+  start  - start dev server and open the browser to localhost
+  build  - the compressed production build
+  deploy - deploy `build` to gh-pages
+```
