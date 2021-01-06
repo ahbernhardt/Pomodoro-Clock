@@ -171,42 +171,50 @@ class App extends Component {
             <div id="options">
               {/* WORK TIME */}
               <div className="timer-option">
-                <div>Work Length</div>
-                <button className="length-setter">-</button>
-                <input type="text" name="work-length" value="25" />
-                <button className="length-setter">+</button>
+                <div className="option-title">Work Length</div>
+                <div className="option-controller">
+                  <div className="length-setter click-button">-</div>
+                  <input type="text" name="work-length" value="25" />
+                  <div className="length-setter click-button">+</div>
+                </div>
               </div>
 
               {/* SHORT BREAK */}
               <div className="timer-option">
-                <div>Break Length (Short)</div>
-                <button className="length-setter">-</button>
-                <input type="text" name="short-break-length" value="5" />
-                <button className="length-setter">+</button>
+                <div className="option-title">Break Length (Short)</div>
+                <div className="option-controller">
+                  <div className="length-setter click-button">-</div>
+                  <input type="text" name="short-break-length" value="5" />
+                  <div className="length-setter click-button">+</div>
+                </div>
               </div>
 
               {/* LONG BREAK */}
               <div className="timer-option">
-                <div>Break Length (Long)</div>
-                <button className="length-setter">-</button>
-                <input type="text" name="long-break-length" value="15" />
-                <button className="length-setter">+</button>
+                <div className="option-title">Break Length (Long)</div>
+                <div className="option-controller">
+                  <div className="length-setter click-button">-</div>
+                  <input type="text" name="long-break-length" value="15" />
+                  <div className="length-setter click-button">+</div>
+                </div>
               </div>
-
             </div>
 
             {/* CHECKS*/}
-            <div id="checks">
-              <span className="check"><i className="fa fa-check fa-2x" aria-hidden="true"/></span>
-              <span className="check"><i className="fa fa-check fa-2x" aria-hidden="true"/></span>
-              <span className="check"><i className="fa fa-check fa-2x" aria-hidden="true"/></span>
-              <span className="check"><i className="fa fa-check fa-2x" aria-hidden="true"/></span>
-            </div>
-
             <div>
+              <div id="checks">
+                <span className="check"><i className="fa fa-check fa-2x" aria-hidden="true"/></span>
+                <span className="check"><i className="fa fa-check fa-2x" aria-hidden="true"/></span>
+                <span className="check"><i className="fa fa-check fa-2x" aria-hidden="true"/></span>
+                <span className="check"><i className="fa fa-check fa-2x" aria-hidden="true"/></span>
+              </div>
+
               <div id="phase">
                 Work Time
               </div>
+            </div>
+
+            <div>
               <div id="timer-container">
                 <div id="timer" className="large">
                   25:00
@@ -214,13 +222,13 @@ class App extends Component {
                 <canvas id="timer-canvas" width="280" height="280"/>
               </div>
             </div>
-
             <div id="timer-controls">
-              <button className="start-timer">Start Timer</button>
-              <button className="stop-timer">Stop Timer</button>
-              <button className="reset-timer">Reset Timer</button>
+              <div className="start-timer">Start Timer</div>
+              <div className="stop-timer">Stop Timer</div>
+              <div className="reset-timer">Reset Timer</div>
             </div>
           </div>
+
           <footer className="footer">
             <p>
               2020 ©
