@@ -12,7 +12,7 @@ Check for [Demo](https://ahbernhardt.github.io/Pomodoro-Clock)
 ## Usage
 
 ```sh
-git clone https://github.com/anguyen0208/Pomodoro-Clock.git
+git clone https://github.com/ahbernhardt/Pomodoro-Clock.git
 cd Pomodoro-Clock
 
 # install dependencies
