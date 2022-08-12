@@ -1,8 +1,8 @@
 # Pomodoro-Clock
 
->Upgrade version of [25+5 Timer](https://anguyen0208.github.io/25-5-timer/)
+>Upgrade version of [25+5 Timer](https://ahbernhardt.github.io/25-5-timer/)
 
-Check for [Demo](https://anguyen0208.github.io/Pomodoro-Clock)
+Check for [Demo](https://ahbernhardt.github.io/Pomodoro-Clock)
 
 ## Screenshot
 
